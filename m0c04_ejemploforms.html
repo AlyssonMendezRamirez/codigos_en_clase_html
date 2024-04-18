@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <form id="formulario-ejemplo">
+        <h1>Formulario</h1>
+        <label for="txt-nombre"></label>
+        <input type="text" id="txt-nombre" name="txt-nombre"  placeholder="Introduzca su nombre" required><br>
+        <label for="txt-email">Correo electronico</label>
+        <input type="text" id="txt-email" name="txt-email" required><br>
+        <label for="txt-password">Clave</label>
+        <input type="password" name="txt-password" id="txt-password" required>
+        <label for="txt-fecha">Fecha de Ingreso</label>
+        <input type="date" id="txt-fecha" name="txt-fecha"><br>
+        <label for="txt-comentarios">Comentarios</label>
+        <textarea name="name" id="txt-comentarios" cols="30" rows="4" required></textarea>
+        <label for="txt-provincia">Seleccione la provincia de residencia</label>
+        <select name="txt-provincia" id="txt-provincia">
+            <option value="San Jose">San Jose</option>
+            <option value="Alajuela">Alajuela</option>
+            <option value="Heredia">Heredia</option>
+            <option value="Cartago">Cartago</option>
+            <option value="Guanacaste">Guanacaste</option>
+            <option value="Puntarenas">Puntarenas</option>
+            <option value="Limon">Limon</option>
+        </select><br><br>
+       <label for="txt-opc1">Opcion 1</label>
+       <input type="radio" id="txt-opc1" name="txt-opc1" value="opc1">
+        <br><br><br><br>
+        <input type="submit" name="btn-enviar" id="btn-enviar" value="Enviar">
+    </form>
+    </body>
+</html>
